@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: hsl(221, 100%, 96%)
+}
+
+
+.main {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+    height: 55%;
+    width: 300px;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.scored {
+
+    border-radius: 100px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 135px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p {
+    text-align: center;
+    opacity: 0.6;
+}
+
+.main h3 {
+    opacity: 0.7;
+}
+
+
+
+.aside {
+    background-color: #fff;
+    height: 55%;
+    width: 300px;
+    padding: 40px;
+    border-radius: 0 30px 30px 0;
+    margin-left: -20px;
+
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05);
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+img {
+    width: 20px;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+    border: 1px solid hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    border: 1px solid hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+
+
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    border: 1px solid hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+    border: 1px solid hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+
+}
+
+button {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: #fff;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    background: hsl(224, 30%, 27%);
+}
